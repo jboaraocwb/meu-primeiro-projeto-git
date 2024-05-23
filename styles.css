@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+    margin-bottom: 163px;
+
+}
+
+.imagem {
+    display: inline-block;
+    width: 595.18px !important;
+    height: 500px !important;
+    margin-left: 80px;
+
+}
+
+.link-header {
+    color: #17233D;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+}
+
+.link-header:hover {
+    text-decoration: underline blue;
+    cursor: default;
+}
+
+.button-header {
+    color: #ffffff;
+    width: 124px;
+    height: 51px;
+    border-radius: 5px;
+    background-color: #6FBF44;
+    border-color: #4CB538;
+    border: 1px;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.button-header:hover {
+    text-decoration: underline blue;
+    cursor: pointer;
+}
+
+.text {
+    display: inline-block;
+    margin-left: 60px;
+    justify-content: center;
+    width: 493px;
+
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    color: #161a49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+}
+
+
+p {
+    color: #4B505A;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 57px;
+    margin-bottom: 55px;
+
+}
+
+p:hover{
+    text-decoration: underline 2px blue;
+}
+
+.learn-more {
+    color: green;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    text-decoration: underline 2px blue;
+
+}
+
+.learn-more:active {
+    border: 1px solid blue;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px){
+    
+    header{
+        display: none;
+    }
+
+    .text{
+        max-width: 90%;
+    }
+
+    h1{
+        width: 278px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        text-align: center;
+       margin-top: 100px;
+    }
+
+    p{
+        width: 304px;
+        height: 165px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        align-items: center;
+        margin: 30px 0;
+
+    }
+
+    .learn-more{
+        display: block;
+        width: 117px;
+        height: 27px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        margin-left: 80px;
+        
+
+    }
+
+    .imagem{
+        position: absolute;
+        margin: 450px auto;
+    }
+
+    img{
+        width: 312px;
+        height: 288px;
+        margin-left: 50px;
+    }
+        
+    }
+    
